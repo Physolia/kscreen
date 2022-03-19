@@ -10,6 +10,7 @@ import org.kde.kirigami 2.4 as Kirigami
 
 ColumnLayout {
     Kirigami.FormData.label: i18n("Orientation:")
+    Kirigami.FormData.labelAlignment: Qt.AlignVCenter
     Kirigami.FormData.buddyFor: autoRotateRadio
     spacing: Kirigami.Units.smallSpacing
 
